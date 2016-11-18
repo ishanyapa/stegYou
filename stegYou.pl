@@ -3,7 +3,7 @@
 $num_args = $#ARGV + 1;
 
 if($num_args < 2){
-	print "\nUsage : StegYou.pl -[option] FileName 'String To Hide'\n";
+	print "\nUsage : perl stegYou.pl -[option] FileName 'String To Hide'\n";
 	print "-h hide a string inside the image file\n";
 	print "-u unhide a hidden string\n";	
 	exit;
